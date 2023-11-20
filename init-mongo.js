@@ -17,11 +17,13 @@ db.createCollection("registeredUsers");
 
 db.registeredUsers.insertMany([
   {
+    username: "johnny",
     name: "John Doe",
     password: "$2b$10$6Ql0MMQT38wyPL6H/ZH2COrtnhrwaFwvRR2/WZVqUPzDueIxUmViy",
     email: "john@example.com",
   },
   {
+    username: "jana",
     name: "Jane Doe",
     password: "$2b$10$6Ql0MMQT38wyPL6H/ZH2COrtnhrwaFwvRR2/WZVqUPzDueIxUmViy",
     email: "jane@example.com",
